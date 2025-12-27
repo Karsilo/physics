@@ -4,6 +4,20 @@
 &nbsp;
 ```
 
+### Image
+
+```
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img
+    src="/advanced/level1/gravitation/neutral-point.jpg"
+    alt="Neutral Point"
+    width={500}
+    style={{ borderRadius: 5 }}
+  />
+</div>
+
+```
+
 ### Small gap between lines
 
 ```

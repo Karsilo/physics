@@ -3,4 +3,94 @@ title: 4. Gravitational Potential
 description: -----
 ---
 
-# Gravitational Potential
+## Definitions
+
+**Gravitational Potential**
+- The energy an object posses due to its position in a gravitational field
+- Gravitational potential energy per mass at a that point
+- Work done per unit mass in bringing a mass from infinity to a defined point
+- Always negative
+
+## Derivations
+
+The area under the graph **g-r** gives you the change in gravitational potential
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img
+    src="/advanced/level1/gravitation/area-under-g-r.jpg"
+    alt="Area Under g-r"
+    width={400}
+    style={{ borderRadius: 5 }}
+  />
+</div>
+
+
+#### Work Done
+
+Since gravitational potential equals work done per unit mass  $W = Fr$
+
+$$
+U(r) = - \dfrac{Fr}{m}
+$$
+
+subbing in $F = \dfrac{GMm}{r^2}$
+
+$$
+U(r) = - \dfrac{GM}{r} \quad \quad (\text{Jkg}^{-1}) 
+$$
+
+#### Integration Method
+
+Since the change in gravitational potential is the area under the graph **g-r**
+
+$$
+g = -\dfrac{GM}{r^2}
+$$
+
+integrating
+
+$$
+U(r) = \int_{r}^{\infty} -\dfrac{GM}{r^2} \; dr
+$$
+
+this results in
+
+$$
+U(r) = [\dfrac{GM}{r}]_{r}^{\infty}
+$$
+
+which looks like
+
+$$
+U(r) = \dfrac{GM}{\infty} - \dfrac{GM}{r}
+$$
+
+which simplifies to
+
+$$
+U(r) = -\dfrac{GM}{r} \quad \quad (\text{Jkg}^{-1}) 
+$$
+
+### Gradient of U-r
+
+Furthermore if you calculate the gradient of **U-r** you get $g$
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img
+    src="/advanced/level1/gravitation/gradient-u-r.jpg"
+    alt="Gradient U-r"
+    width={400}
+    style={{ borderRadius: 5 }}
+  />
+</div>
+
+## Useful Equations
+
+$$
+U(r) = -\dfrac{GM}{r}
+$$
+
+
+&nbsp;
+
+&nbsp;
